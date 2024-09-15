@@ -2,6 +2,7 @@ use std::collections::HashMap;
 
 use crate::entity::Entity;
 
+#[derive(Debug)]
 pub struct Pool<T> {
     /// Map of entity id to component index
     entities: HashMap<u32, u32>,

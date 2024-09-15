@@ -2,6 +2,9 @@
 name = "yarecs"
 version = "0.1.0"
 edition = "2021"
+authors = ["dz1230"]
+description = "Yet Another Rust Entity Component System"
+license = "MIT"
 
 [dependencies]
 lazy_static = "1.5.0"
