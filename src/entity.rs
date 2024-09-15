@@ -1,25 +1,5 @@
 
-// // Global mutable storage for entities
-// static ENTITIES: OnceLock<Mutex<Vec<Entity>>> = OnceLock::new();
-
-// fn get_entity_storage() -> &'static Mutex<Vec<Entity>> {
-//     ENTITIES.get_or_init(|| Mutex::new(Vec::new()))
-// }
-
-// pub fn add_entity(entity: Entity) {
-//     let mut entities = ENTITIES.lock().unwrap();
-//     entities.push(entity);
-// }
-
-// pub fn get_entities() -> Vec<Entity> {
-//     let entities = ENTITIES.lock().unwrap();
-//     entities.clone()
-// }
-
-// invalid entity: index -1 version 0
-// static INVALID_ENTITY: Entity = Entity::new(u32::MAX);
-
-
+/// Entity is a unique identifier for a game object.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub struct Entity {
     version: u32,
