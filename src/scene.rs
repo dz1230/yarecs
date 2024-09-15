@@ -18,8 +18,8 @@ impl EntityDescription {
     /// # Example
     /// 
     /// ```
-    /// use recs::entity::Entity;
-    /// use recs::scene::EntityDescription;
+    /// use yarecs::entity::Entity;
+    /// use yarecs::scene::EntityDescription;
     /// 
     /// let entity = Entity::new(0);
     /// let entity_description = EntityDescription::new(entity);
@@ -47,8 +47,8 @@ impl EntityDescription {
     /// # Example
     /// 
     /// ```
-    /// use recs::entity::Entity;
-    /// use recs::scene::EntityDescription;
+    /// use yarecs::entity::Entity;
+    /// use yarecs::scene::EntityDescription;
     /// 
     /// let entity = Entity::new(0);
     /// let mut entity_description = EntityDescription::new(entity);
@@ -68,8 +68,8 @@ impl EntityDescription {
     /// # Example
     /// 
     /// ```
-    /// use recs::entity::Entity;
-    /// use recs::scene::EntityDescription;
+    /// use yarecs::entity::Entity;
+    /// use yarecs::scene::EntityDescription;
     /// 
     /// let mut entity = Entity::new(0);
     /// let entity_description = EntityDescription::new(entity);
@@ -104,7 +104,7 @@ impl Scene {
     /// # Example
     /// 
     /// ```
-    /// use recs::scene::Scene;
+    /// use yarecs::scene::Scene;
     /// 
     /// let scene = Scene::new();
     /// ```
@@ -121,7 +121,7 @@ impl Scene {
     /// # Example
     /// 
     /// ```
-    /// use recs::scene::Scene;
+    /// use yarecs::scene::Scene;
     /// 
     /// let mut scene = Scene::new();
     /// let entity = scene.create_entity();
@@ -151,7 +151,7 @@ impl Scene {
     /// # Example
     /// 
     /// ```
-    /// use recs::scene::Scene;
+    /// use yarecs::scene::Scene;
     /// 
     /// let mut scene = Scene::new();
     /// let entity = scene.create_entity();
@@ -171,7 +171,7 @@ impl Scene {
     /// # Example
     /// 
     /// ```
-    /// use recs::scene::Scene;
+    /// use yarecs::scene::Scene;
     /// 
     /// let mut scene = Scene::new();
     /// let entity = scene.create_entity();
@@ -196,7 +196,7 @@ impl Scene {
     /// # Example
     /// 
     /// ```
-    /// use recs::scene::Scene;
+    /// use yarecs::scene::Scene;
     /// 
     /// let mut scene = Scene::new();
     /// let entity = scene.create_entity();
@@ -221,7 +221,7 @@ impl Scene {
     /// # Example
     /// 
     /// ```
-    /// use recs::scene::Scene;
+    /// use yarecs::scene::Scene;
     /// 
     /// let mut scene = Scene::new();
     /// let entity = scene.create_entity();
@@ -243,7 +243,7 @@ impl Scene {
     /// # Example
     /// 
     /// ```
-    /// use recs::scene::Scene;
+    /// use yarecs::scene::Scene;
     /// 
     /// let mut scene = Scene::new();
     /// let entity = scene.create_entity();
@@ -264,7 +264,7 @@ impl Scene {
     /// # Example
     /// 
     /// ```
-    /// use recs::scene::Scene;
+    /// use yarecs::scene::Scene;
     /// 
     /// let mut scene = Scene::new();
     /// let entity = scene.create_entity();
@@ -288,7 +288,7 @@ impl Scene {
     /// # Example
     /// 
     /// ```
-    /// use recs::scene::Scene;
+    /// use yarecs::scene::Scene;
     /// 
     /// let mut scene = Scene::new();
     /// let entity = scene.create_entity();

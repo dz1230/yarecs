@@ -15,7 +15,7 @@ lazy_static::lazy_static! {
 /// # Example
 /// 
 /// ```
-/// use recs::component::get_type_id;
+/// use yarecs::component::get_type_id;
 /// 
 /// let int_id = get_type_id::<i32>();
 /// let string_id = get_type_id::<String>();
@@ -36,8 +36,8 @@ pub fn get_type_id<T: 'static>() -> usize {
 /// # Example
 /// 
 /// ```
-/// use recs::component::RequireComponents;
-/// use recs::component::get_type_id;
+/// use yarecs::component::RequireComponents;
+/// use yarecs::component::get_type_id;
 /// 
 /// fn variadic_example<T: RequireComponents>() -> Vec<usize> {
 ///     T::required_component_ids()
